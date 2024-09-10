@@ -30,9 +30,7 @@ const ProductDetail = () => {
       });
   }, [id]);
 
-  const handleThumbnailClick = (image) => {
-    setMainImage(image);
-  };
+  const handleThumbnailClick = (image) => setMainImage(image);
 
   //   if (!product) return <p>Product not found.</p>;
 
